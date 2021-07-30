@@ -1,0 +1,72 @@
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 4rem;
+}
+.card:first-child {
+grid-column-start: 1;
+grid-column-end: 3;
+margin: 0.5rem;
+padding: 0.5rem;
+}
+.card h3, p {
+  padding-top: 1rem;
+}
+
+#last {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 4rem;
+}
+
+
+
+@media (max-width:650px) {
+  .navbar ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .navbar ul li {
+    margin: 2px;
+    border-bottom: rgb(97, 88, 88) dotted 1px;
+  }
+  #showcase {
+    font-size: 0.9rem;
+  }
+  .l-heading {
+    font-size: 3rem;
+  }
+.btn-1 {
+  font-size: 0.60rem;
+}
+.btn-2 {
+  font-size: 0.60rem
+}
+.style {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 0.85rem;
+  padding: 1rem;
+  border-bottom: darkgray dotted 1px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  padding:1rem;
+  margin: 0.2rem;
+}
+
+#last {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 5rem;
+}
+
+}
