@@ -3,7 +3,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-bottom: 4rem;
+  padding-bottom: 4rem
 }
 .card:first-child {
 grid-column-start: 1;
@@ -15,13 +15,6 @@ padding: 0.5rem;
   padding-top: 1rem;
 }
 
-#last {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  margin-top: 4rem;
-}
-
-
 
 @media (max-width:650px) {
   .navbar ul {
@@ -29,15 +22,36 @@ padding: 0.5rem;
     grid-template-columns: repeat(2, 1fr);
   }
 
+.navbar{
+  font-size: 0.85rem;
+} 
+
   .navbar ul li {
     margin: 2px;
     border-bottom: rgb(97, 88, 88) dotted 1px;
   }
   #showcase {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    height: 75vh;
   }
+
+
+  #navbar-2 .style{
+    font-size: 0.8rem;
+  }
+
+  #showcase-2 .showcase-content-2 {
+    font-size: 0.8rem;
+  }
+
+.last-1 {
+  width: auto ;
+  height: auto;
+  margin-top: -11rem;
+}
+
   .l-heading {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 .btn-1 {
   font-size: 0.60rem;
@@ -45,6 +59,13 @@ padding: 0.5rem;
 .btn-2 {
   font-size: 0.60rem
 }
+
+#last {
+  font-size: 0.8rem;
+  height: 85vh;
+  width: auto;
+}
+
 .style {
   display:grid;
   grid-template-columns: repeat(3, 1fr);
@@ -67,6 +88,25 @@ padding: 0.5rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   margin-top: 5rem;
+}
+
+#last .last-2 {
+  text-align: center;
+width: auto;
+height: auto;
+
+}
+
+
+#footer {
+  height: 20vh;
+  background: grey;
+  margin-top: -9rem;
+}
+
+#footer h3 {
+  text-align: center;
+  padding-top: 3rem;
 }
 
 }
