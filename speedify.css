@@ -13,6 +13,10 @@ img{
   height: 100%;
 }
 
+p{
+  line-height: 1.5rem;
+}
+
 .blue {
   color: #061230;
 }
@@ -123,7 +127,7 @@ color: orange;
 
 #showcase-2 .showcase-content-2 {
   background: #f4f4f4f4;
-  height: 100vh;
+  height: auto;
 }
 
 #style h2 {

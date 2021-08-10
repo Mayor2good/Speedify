@@ -32,7 +32,7 @@ padding: 0.5rem;
   }
   #showcase {
     font-size: 0.8rem;
-    height: 75vh;
+    height: 90vh;
   }
 
 
@@ -77,6 +77,7 @@ padding: 0.5rem;
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 7rem;
 }
 
 .card {
@@ -88,9 +89,15 @@ padding: 0.5rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   margin-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.last-1{
+  height: auto;
 }
 
 #last .last-2 {
+  line-height: 1.5rem;
   text-align: center;
 width: auto;
 height: auto;
@@ -101,7 +108,7 @@ height: auto;
 #footer {
   height: 20vh;
   background: grey;
-  margin-top: -9rem;
+  margin-top: -4rem;
 }
 
 #footer h3 {
