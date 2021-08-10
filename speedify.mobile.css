@@ -32,9 +32,13 @@ padding: 0.5rem;
   }
   #showcase {
     font-size: 0.8rem;
-    height: 100vh;
+    height: 80vh;
+    width: 100vw;
   }
-
+.showcase-p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
 
   #navbar-2 .style{
     font-size: 0.8rem;
@@ -108,7 +112,7 @@ height: auto;
 #footer {
   height: 20vh;
   background: grey;
-  margin-top: -3rem;
+  margin-top: -2rem;
 }
 
 #footer h3 {
